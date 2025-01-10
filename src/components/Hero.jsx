@@ -1,7 +1,7 @@
  import {useEffect, useRef} from "react";
  import {PROFILE} from "../constants";
  import {RiArrowRightUpLine} from "@remixicon/react";
- import david from "../assets/David.webp";
+ import Balram from "../assets/Balram.jpg";
  import {gsap} from "gsap";
 
  
@@ -76,7 +76,7 @@ const Hero = () => {
         </div>
         <p className="hero-text max-w-2xl p-2 text-center text-xl 
         tracking-tighter lg:text-2xl">{PROFILE.subheading}</p>
-        <a href="/David-stones.pdf" target="_blank" rel="noopener norefferer"
+        <a href="/Resume.pdf" target="_blank" rel="noopener norefferer"
         download className="hero-btn mb-6 flex gap-1 rounded-full border
         border-pink-200/50 px-3 py-2 tracking-tighter">
             <span>
@@ -84,8 +84,8 @@ const Hero = () => {
             </span>
             <RiArrowRightUpLine/>
         </a>
-        <img src={david} alt={PROFILE.name} width={400} height="400"
-         className="hero-img  rounded-3xl border border-purple-300/20 p-1"/>
+        <img src={Balram} alt={PROFILE.name} width={400} height="400"
+         className="hero-img h-[400px] rounded-3xl border border-purple-300/20 p-1 "/>
     </section>
   )
 }

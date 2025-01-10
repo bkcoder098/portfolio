@@ -16,9 +16,9 @@ import Contact from "./components/Contact";
         <Hero/>
         <Projects/>
         <Skills/>
-        <Experience/>
+        {/* <Experience/> */}
         <Education/>
-        <Testimonials/>
+        {/* <Testimonials/> */}
         <Contact/>
       </div>
     </main>
