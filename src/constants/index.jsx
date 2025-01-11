@@ -63,7 +63,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["React.js", "Tailwind CSS","Gsap"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "portfolio-ivory-eta-58.vercel.app",
   },
   {
     //id: 4,
@@ -185,7 +185,7 @@ export const EDUCATION = [
     id: 1,
     degree: "Bachelor of Technology in Computer Science (Cyber Security)",
     institution: "Rungta college of engineering and technology",
-    duration: "2024 - 2027",
+    duration: "2024 - 2028",
     description:
       "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development.",
   },
