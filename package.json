@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
     "@remixicon/react": "^4.6.0",
     "gsap": "^3.12.5",
     "react": "^18.3.1",

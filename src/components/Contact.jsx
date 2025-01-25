@@ -3,6 +3,9 @@ import {RiLinkedinBoxFill}  from "@remixicon/react";
 import {RiGithubFill}  from "@remixicon/react";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
+import { CIcon } from '@coreui/icons-react';
+import { cibLeetcode } from '@coreui/icons';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -64,6 +67,20 @@ const Contact = () => {
                 aria-label="vist my github profile">
                     <RiGithubFill className="text-3xl" />
                 </a>
+                  <a
+                      href="https://leetcode.com/u/jamescoder-0/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="contact-icon"
+                      aria-label="Visit my LeetCode profile"
+                  >
+                      <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                          alt="LeetCode"
+                          className="w-8 h-8"
+                      />
+                  </a>
+                
             </div>
         </div>
     </section>
