@@ -34,7 +34,7 @@ export const PROFILE = {
   name: "HII I'M balram",
   role: "Full Stack Web Developer",
   subheading:
-    "I  am  beginner  in full-stack development , I  trying to build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "I  am a full-stack Web Developer , I  trying to build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
 };
 
 export const PROJECTS = [
