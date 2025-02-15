@@ -66,13 +66,13 @@ export const PROJECTS = [
     link: "",
   },
   {
-    //id: 4,
-    title: " NEW PROJECT",
+    id: 4,
+    title: "Wanderlust",
     description:
-      "Coming soon",
-    techStack: [],
+      " A fullstack website complete frontend and backend. Wanderlust is your ultimate travel companion, helping you explore, review, and share breathtaking destinations from around the world. Whether you're a traveler looking for hidden gems or an adventurer sharing your experiences, Wanderlust makes discovering new places easier than ever.",
+    techStack: ["MERN","Bootstrap"],
     imgSrc: project4,
-    //link: "https://example-blogplatform.com",
+    link: "https://wanderlust-m4rl.onrender.com/signup",
   },
   {
     // id: 5,
