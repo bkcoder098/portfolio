@@ -5,6 +5,9 @@ import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
 import personImage from "../assets/testimonial.webp";
+import { FaNodeJs, FaBootstrap, FaGithub, FaDocker } from "react-icons/fa";
+
+
 
 import {
   RiHtml5Line,
@@ -36,6 +39,8 @@ export const PROFILE = {
   subheading:
     "I  am a full-stack Web Developer , I  trying to build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
 };
+
+
 
 export const PROJECTS = [
   // {
@@ -110,10 +115,9 @@ export const SKILLS = [
   {
     name: "React",
     icon: <RiReactjsLine className="text-blue-400" />,
-  },
-  {
+  },{
     name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    icon: <FaNodeJs size={40} color="#339933" />,
   },
   {
     name: "MongoDB",
@@ -131,17 +135,21 @@ export const SKILLS = [
     name: "Express",
     icon: <RiCodeFill className="text-pink-400" />,
   },
-  {
-    name: "Git/Github", 
-    icon: <RiGitRepositoryFill className="text-red-600" />,
+   {
+    name: "Git/GitHub",
+    icon: <FaGithub size={40} color="#181717" />, // GitHub's dark gray
   },
   {
-    name: "BootStrap", 
-    icon: <RiCodeBoxLine className="text-blue-400" />,
+    name: "Bootstrap",
+    icon: <FaBootstrap size={40} color="#7952B3" />,
   },
   {
     name: "Material-UI",
     icon: <RiNodeTree className="text-green-500" />,
+  },
+  {
+    name: "Docker",
+    icon: <FaDocker size={40} color="#2496ED" />, 
   },
 ];
 
