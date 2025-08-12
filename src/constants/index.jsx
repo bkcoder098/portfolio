@@ -145,11 +145,16 @@ export const SKILLS = [
   },
   {
     name: "Material-UI",
-    icon: <RiNodeTree className="text-green-500" />,
+    // icon: <RiNodeTree className="text-green-500" />,
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="Material UI" width={40} />,
   },
   {
     name: "Docker",
     icon: <FaDocker size={40} color="#2496ED" />, 
+  },
+    {
+    name: "Python",
+    icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width={40} />,
   },
 ];
 

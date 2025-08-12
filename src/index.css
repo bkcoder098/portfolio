@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(24 3 23);
+  color: white;
+}
+
+/* Multi-Color Dark Animated Gradient */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-dark {
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1b2735, #090a0f);
+  background-size: 500% 500%;
+  animation: gradient 24s ease infinite;
+}
+
+/* Stars Animation */
+@keyframes moveStars {
+  from { background-position: 0 0; }
+  to { background-position: -10000px 5000px; }
+}
+
+.stars {
+  background: transparent url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
+  animation: moveStars 200s linear infinite;
+  opacity: 0.4;
+}
+
+
+
+
+
+
+
+ /*   OLD VERSION
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
   font-family:"Noto sans",sans-serif;
@@ -11,4 +54,4 @@
 
 .bg-image{
   background-image: url("C:\DEVLOPMENT_1\portfolio\src\assets\bg.webp")
-}
+} */
