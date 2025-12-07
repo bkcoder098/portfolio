@@ -205,7 +205,7 @@ export const EDUCATION = [
   {
     id: 2,
     degree: "CLASS 12th",
-    institution: " Giridih(+2) HIGH SCHOOL GIRIDIH",
+    institution: " GIRIDIH(+2) HIGH SCHOOL GIRIDIH",
     duration: "2022 - 2024",
     description:
       "",
